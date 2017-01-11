@@ -1,7 +1,5 @@
 /* Move your styles here when you're ready to clean up your HTML file */
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
-<style>
-
   html {
     font-size:20px;
     font-family:'PT Sans', sans-serif;
@@ -52,7 +50,12 @@
   #advanced-selectors li:nth-child(odd){
     background-color: green;
   }
-
-  #advanced-selectors ol > li > p> a  {
-    text-decoration:none;
+  [title="Bitmaker"]:hover {
+    text-decoration:  none;
+  }
+  #advanced-selectors ul a:hover {
+    background-color: yellow;
+  }
+  #advanced-selectors ul a:active {
+    background-color: red;
   }
